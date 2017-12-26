@@ -21,7 +21,8 @@ public partial class Home : System.Web.UI.Page
     }
     protected void Login_Click(object sender, EventArgs e)
     {
-        
+
+        string username = TxtUserID.Text;
         var proc1 = new ProcessStartInfo();
         string anyCommand;
         proc1.UseShellExecute = true;
